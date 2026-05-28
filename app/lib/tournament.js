@@ -11,7 +11,7 @@ export const tournamentConfig = {
   prizePool: '$3,500',
   tournamentTimezone: 'Europe/London',
   jackpotRule: 'To win, your picks must include the outright Champion Golfer of the Year. If no entry has the winner, the prize jackpots again.',
-  heroImage: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=2400&q=80'
+  heroImage: 'https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=2400&q=80'
 };
 
 export const poolEntries = [

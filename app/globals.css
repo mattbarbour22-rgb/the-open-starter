@@ -15,7 +15,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background:
     linear-gradient(90deg, rgba(4,15,32,.96) 0%, rgba(4,15,32,.72) 45%, rgba(4,15,32,.35) 100%),
-    url('https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=2400&q=80');
+    url('https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=2400&q=80');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

@@ -1,0 +1,20 @@
+THE OPEN PICK 3 LIVE - SETUP
+
+This version is styled for The Open Championship at Royal Birkdale.
+
+Recommended Vercel environment variables:
+SUPABASE_URL=your Supabase project URL
+SUPABASE_SERVICE_ROLE_KEY=your Supabase service role key
+TOURNAMENT_STATE_ID=2026-the-open
+SLASH_GOLF_API_KEY=your RapidAPI key
+SLASH_GOLF_API_HOST=live-golf-data.p.rapidapi.com
+SLASH_GOLF_ORG_ID=1
+SLASH_GOLF_YEAR=2026
+SLASH_GOLF_TOURN_ID=replace-with-The-Open-tournament-id-when-available
+ADMIN_SECRET=theopen-private-save-key
+
+Admin snapshot URL after a completed round:
+https://YOUR-SITE.vercel.app/api/admin/save-round-snapshot?secret=theopen-private-save-key
+
+To trial another tournament, edit app/lib/tournament.js and change the Vercel env vars:
+TOURNAMENT_STATE_ID, SLASH_GOLF_YEAR, SLASH_GOLF_TOURN_ID, ADMIN_SECRET.
